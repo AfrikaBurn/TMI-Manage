@@ -12,7 +12,7 @@
 From within a command line terminal:
 ```bash
 git clone https://github.com/AfrikaBurn/TMI-Manage.git
-cd TMI-manage
+cd TMI-Manage
 ```
 
 ## Running
