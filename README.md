@@ -26,7 +26,7 @@ In rootless mode:
 ```bash
 docker-compose up -d
 ```
-(the -d option runs manage in detached mode)
+(the -d option runs the manage server in detached mode)
 
 ## Runnig locally
 
@@ -35,4 +35,4 @@ Add the following to your hosts file (/etc/hosts on ubuntu):
 127.0.0.1 manage.afrikaburn.com
 ```
 
-Visit: manage.afrikaburn.com:43000
+Visit: [manage.afrikaburn.com:43000](manage.afrikaburn.com:43000)
