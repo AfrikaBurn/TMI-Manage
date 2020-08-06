@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+
+  manage:
+    container_name: tmi_manage
+    image: gitlab/gitlab-ee:latest
+    restart: always
+    hostname: manage.afrikaburn.org
+    environment:
+      - GITLAB_HOME='/srv/gitlab'
+      - GITLAB_OMNIBUS_CONFIG="from_file('/omnibus_config.rb')"
+    ports:
+      - '43000:80'
+      - '43010:443'
+      - '43020:22'
+    volumes:
+      - ./local/config:/etc/gitlab
+      - ./local/logs:/var/log/gitlab
+      - ./local/data:/var/opt/gitlab
