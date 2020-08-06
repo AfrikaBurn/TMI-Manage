@@ -12,7 +12,7 @@
 From within a command line terminal:
 ```bash
 git clone https://github.com/AfrikaBurn/TMI-Manage.git
-cd TMI-manage
+cd TMI-Manage
 ```
 
 ## Running
@@ -35,4 +35,4 @@ Add the following to your hosts file (/etc/hosts on ubuntu):
 127.0.0.1 manage.afrikaburn.com
 ```
 
-Visit: [manage.afrikaburn.com:43000](manage.afrikaburn.com:43000)
+Visit: [manage.afrikaburn.com:43000](http://manage.afrikaburn.com:43000)
